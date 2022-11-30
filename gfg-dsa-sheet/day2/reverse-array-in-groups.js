@@ -1,5 +1,5 @@
 function reverseInGroups(arr, group) {
-    for(let i=0; i<arr.length; i += 3) {
+    for(let i=0; i<arr.length; i += group) {
         l = i;
         hi = i - 1 + group;
 
