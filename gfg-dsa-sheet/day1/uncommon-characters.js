@@ -41,9 +41,10 @@ console.log(uncommonCharacters);
 // XOR returns "true", if both are different.
 // So if a charactar is true in one of those two hashmaps, then only it will give true.
 // if it is present or missing in both the cases i.e. same in both the cases, it returns false.
-// so trough this we can avle to acheive the different characters of the two strings.
+// so trough this we can able to acheive the different characters of the two strings.
 
 
-// so here space complexity = O(1) and time complexity = O(n + m).
-// as there is no nested for loop, the time complexity will be O(n + m) i.e. the length of two arrays.
+// so here space complexity = O(1) and time complexity = O(n + m) i.e. O(n).
+// n + m ≤ n + n = 2n, which is O(n). Thus O(n+m) = O(n).
+// as there is no nested for loop, the time complexity will be O(n + m) i.e. the length of two arrays i.e. O(n).
 // as we are using two hashmaps which have a length of 26 each, the length of the hashmap is fixed. so the space complexity is constant i.e. O(1). 
