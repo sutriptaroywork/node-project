@@ -25,8 +25,8 @@ function equilibriumPoint(arr) {
 
 const arr = [3, 8, 12, 6, 5];
 
-const leadersArr = equilibriumPoint(arr);
-console.log(leadersArr);
+const equilibriumItem = equilibriumPoint(arr);
+console.log(equilibriumItem);
 
 
 // here we are going to find the equilibrium point in an array.
