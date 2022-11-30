@@ -5,17 +5,13 @@ function sort0s1s2s(arr) {
 
     while(mid <= r) {
         if(arr[mid] == 0) {
-            const temp = arr[l];
-            arr[l] = arr[mid];
-            arr[mid] = temp;
+            [arr[l], arr[mid]] = [arr[mid], arr[l]];
             mid += 1;
             l += 1;
         } else if (arr[mid] == 1) {
             mid += 1
         } else {
-            const temp = arr[r];
-            arr[r] = arr[mid];
-            arr[mid] = temp;
+            [arr[mid], arr[r]] = [arr[r], arr[mid]]
             r -= 1;
         }
     }
