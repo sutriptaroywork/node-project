@@ -21,6 +21,10 @@ function findUncommon(str1, str2) {
             charStr += String.fromCharCode('a'.charCodeAt(0) + i)
         }
     }
+
+    if(charStr == "") {
+        return -1
+    }
     return charStr;
 
 }
