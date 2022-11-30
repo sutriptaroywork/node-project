@@ -3,7 +3,7 @@ function maximumNoOfToys(toyArr, moneyAvailable) {
     toyArr.sort();
 
     for(let i=0; i<toyArr.length; i++) {
-        if(moneyAvailable <= toyArr[i]) {
+        if(moneyAvailable >= toyArr[i]) {
             totalToys += 1;
             moneyAvailable -= toyArr[i];
         }
