@@ -24,7 +24,7 @@ console.log(leadersArr);
 // let's understand this with an example.
 // ex - arr = [16, 17, 4, 3, 5, 2]. So the output will be - [17, 5, 2].
 // as the last element has no other item to compare, we assume it a leader than all the items of it's right.
-// we will take -1 as our initial max value, so that the last element satisfy the conditional check.
+// we will take -1 as our initial max value, so that the last element satisfy the conditional check as we have an array of positive numbers.
 
 
 // here time complexity of the solution will be - O(n) and space complexity will be - O(n).
