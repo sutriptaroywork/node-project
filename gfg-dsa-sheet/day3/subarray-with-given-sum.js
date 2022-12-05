@@ -3,7 +3,7 @@ function subArrayGivenSum(arr, target) {
     let currentSum = arr[0];
 
     for(let i = 1; i <= arr.length; i++) {
-        while(currentSum > target && start < i) {
+        while(currentSum > target && start < i - 1) {
             currentSum -= arr[start];
             start += 1;
         }
