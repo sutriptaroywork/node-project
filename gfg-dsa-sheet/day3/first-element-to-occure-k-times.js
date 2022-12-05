@@ -1,4 +1,4 @@
-function elementsKtimes(arr, target) {
+function elementKtimes(arr, target) {
     const myMap = new Map();
 
     for(let i = 0; i < arr.length; i++) {
@@ -18,7 +18,7 @@ function elementsKtimes(arr, target) {
 
 const arr = [2, 3, 4, 3, 5];
 const target = 3
-const itemMeetsTarget = elementsKtimes(arr, target);
+const itemMeetsTarget = elementKtimes(arr, target);
 console.log(itemMeetsTarget);
 
 // here we need to find a number that appears k times or the given times from an array.
