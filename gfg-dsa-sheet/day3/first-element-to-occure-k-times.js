@@ -25,7 +25,7 @@ console.log(itemMeetsTarget);
 // ex - we need to find a number that appears 3 times in an array.
 // if there is more than one numbers that appears 3 times in an array, we need to take the number that completes the target first.
 // ex - [2, 5, 4, 4, 5, 4, 5, 1]. here 4 and 5 both appears 3 times. but 4 completes the target first. So our answer will be 4, not 5.
-// so to do this we have to iterate the array and every time we are getting the item, we will add the count into a hashmap and check if it completes the targetor not.
+// so to do this we have to iterate the array and every time we are getting the item, we will add the count into a hashmap and check if it completes the target or not.
 // whenever we get an item that completes the target, just return that.
 
 
