@@ -46,3 +46,4 @@ console.log(subArrayWithTarget);
 //      4) then we are adding "i" th item, if it is less than the array length. This we need to check as we are running the array till (array length + 1)th item.
 //      5) now why we are running array till (array length + 1)th item ? because we need to check the sum after adding the last item. Now after adding the last item, there is no checking happeing. So we are running the iteration till (array length + 1)th item.
 //      6) now why we are checking before addition ? because we are taking 0th item as current sum initially, if it not matches with the target, then only we add the next item.
+//      7) in the while loop we are running the loop till the less of the previous item of the current item i.e. "i - 1". Because we are not still added last item, so it won't be less than i. As the sum already happens till the previous item, we are taking till 1 item less than the previous item.
