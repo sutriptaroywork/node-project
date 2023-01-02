@@ -33,8 +33,8 @@ function minNoOfJumpsToEnd(arr) {
 }
 
 const arr = [1, 3, 5, 8, 0, 2, 6, 7, 6, 8, 9];
-const maxSum = minNoOfJumpsToEnd(arr);
-console.log(maxSum);
+const noOfJumps = minNoOfJumpsToEnd(arr);
+console.log(noOfJumps);
 
 
 // here we need to find the number of minimum jumps needed to go to the end of the array.
