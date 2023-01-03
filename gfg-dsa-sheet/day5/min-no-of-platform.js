@@ -23,8 +23,8 @@ function minNoOfPlatform(arr, dep) {
 
 const arr = [0900, 0940, 0950, 1100, 1500, 1800];
 const dep = [0910, 1200, 1120, 1130, 1900, 2000];
-const noOfJumps = minNoOfPlatform(arr);
-console.log(noOfJumps);
+const noOfPlatforms = minNoOfPlatform(arr, dep);
+console.log(noOfPlatforms);
 
 
 // here we need to find the number of minimum platform needed to accommodate all the trains.
