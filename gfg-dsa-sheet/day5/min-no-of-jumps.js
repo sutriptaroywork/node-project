@@ -47,4 +47,4 @@ console.log(noOfJumps);
 
 // here time complexity of the solution will be - O(n) and space complexity will be - O(1).
 // as we are iterating the array once, the time is directly dependent upon the size of the array. So the time complexity will be O(n).
-// as we are using 3 variables to store data where the number of data storing is not directly dependent on the size of the array, the space complexity will be O(1).
+// as we are using 3 variables to store data where the number of variables is not directly dependent on the size of the array, the space complexity will be O(1).
