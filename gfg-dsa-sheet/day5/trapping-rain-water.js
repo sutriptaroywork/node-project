@@ -16,6 +16,8 @@ function trappingRainWater(arr) {
         rightHighest.push(Math.max(maxTillNow, arr[i]));
     }
 
+    rightHighest.reverse();
+
     for (let i = 0; i < arr.length; i++) {
         trappedWaterBlocks += Math.min(leftHighest[i], rightHighest[i]) - arr[i];
     }
@@ -23,7 +25,8 @@ function trappingRainWater(arr) {
     return trappedWaterBlocks;
 }
 
-const arr = [3,0,0,2,0,4];
+// const arr = [3,0,0,2,0,4];
+const arr = [1, 1, 5, 2, 7, 6, 1, 4, 2, 3]
 const noOfBlocksOfWater = trappingRainWater(arr);
 console.log(noOfBlocksOfWater);
 
